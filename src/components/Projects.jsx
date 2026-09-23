@@ -91,7 +91,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-28 bg-white"
+      className="py-28 bg-white dark:bg-slate-950"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
@@ -114,7 +114,7 @@ const Projects = () => {
             Things I've Built
           </h2>
 
-          <p className="mt-5 text-slate-500 max-w-2xl mx-auto">
+          <p className="mt-5 text-slate-500 dark:text-slate-300 max-w-2xl mx-auto">
             A collection of projects that helped me
             strengthen my frontend and full-stack
             development skills.
@@ -174,7 +174,7 @@ const Projects = () => {
                     {project.title}
                   </h3>
 
-                  <p className="text-slate-600 leading-relaxed">
+                  <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
                     {project.description}
                   </p>
 
@@ -187,6 +187,7 @@ const Projects = () => {
                         py-1
                         rounded-full
                         bg-white
+                        dark:bg-slate-900
                         border
                         border-slate-200
                         text-sm

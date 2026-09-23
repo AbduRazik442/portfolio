@@ -61,7 +61,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-28 bg-slate-50"
+      className="py-28 bg-slate-50 dark:bg-slate-900"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
@@ -84,7 +84,7 @@ const Skills = () => {
             Technologies I Work With
           </h2>
 
-          <p className="text-slate-500 mt-5 max-w-2xl mx-auto">
+          <p className="text-slate-500 dark:text-white mt-5 max-w-2xl mx-auto">
             My core technology stack for building
             modern web applications and full-stack
             solutions.

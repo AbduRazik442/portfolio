@@ -4,14 +4,14 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center px-6"
+      className="min-h-screen flex items-center justify-center px-6 bg-transparent dark:bg-slate-950 transition-colors duration-300"
     >
       <div className="max-w-5xl mx-auto text-center">
         <motion.h1
           initial={{ opacity: 0, y: 25 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight"
+          className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight dark:text-white"
         >
           MERN Stack
           <br />
@@ -22,7 +22,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 25 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="mt-8 text-lg md:text-xl text-slate-500 max-w-2xl mx-auto"
+          className="mt-8 text-lg md:text-xl text-slate-500 dark:text-slate-300 max-w-2xl mx-auto"
         >
           Hi, I'm Abdu Razik. I build modern web
           applications using React, Node.js,

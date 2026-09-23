@@ -24,7 +24,7 @@ const About = () => {
     return (
         <section
             id="about"
-            className="py-28 bg-white"
+            className="py-28 bg-transparent dark:bg-slate-900"
         >
             <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
@@ -56,7 +56,7 @@ const About = () => {
                         transition={{ duration: 0.7 }}
                     >
                         <div className="relative">
-                            <div className="aspect-square rounded-[40px] overflow-hidden border border-slate-200 bg-slate-100">
+                            <div className="aspect-square rounded-[40px] overflow-hidden border border-slate-200 dark:border-slate-800 bg-slate-100">
                                 <img
                                     src="/profile.jpg"
                                     alt="Abdu Razik"

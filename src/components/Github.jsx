@@ -42,7 +42,7 @@ const GithubSection = () => {
         return (
             <section
                 id="github"
-                className="py-28 bg-white"
+                className="py-28 bg-white dark:bg-slate-900"
             >
                 <div className="max-w-7xl mx-auto px-6 text-center">
                     <h2 className="text-2xl font-semibold">
@@ -56,7 +56,7 @@ const GithubSection = () => {
     return (
         <section
             id="github"
-            className="py-28 bg-white"
+            className="py-28 bg-white dark:bg-slate-900"
         >
             <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
@@ -101,6 +101,7 @@ const GithubSection = () => {
             rounded-[36px]
             border
             border-slate-200
+            dark:bg-slate-900
             bg-slate-50
             p-8
             lg:p-10

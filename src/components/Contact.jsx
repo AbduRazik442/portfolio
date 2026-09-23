@@ -11,13 +11,13 @@ const contactItems = [
   {
     icon: Mail,
     title: "Email",
-    value: "yourmail@gmail.com",
+    value: "razikabdu442@gmail.com",
     link: "mailto:yourmail@gmail.com",
   },
   {
     icon: Phone,
     title: "Phone",
-    value: "+91 XXXXX XXXXX",
+    value: "+91 9745512414",
     link: "tel:+91XXXXXXXXXX",
   },
   {
@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-28 bg-white"
+      className="py-28 bg-white dark:bg-slate-900"
     >
       <div className="max-w-6xl mx-auto px-6 lg:px-10">
 
