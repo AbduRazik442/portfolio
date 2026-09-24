@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center px-6 bg-transparent dark:bg-slate-950 transition-colors duration-300"
+      className="min-h-screen flex items-center justify-center px-6 bg-transparent glass-card dark:bg-slate-950 transition-colors duration-300"
     >
       <div className="max-w-5xl mx-auto text-center">
         <motion.h1

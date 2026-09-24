@@ -54,7 +54,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-28 bg-slate-50"
+      className="py-28 glass-card"
     >
       <div className="max-w-6xl mx-auto px-6 lg:px-10">
 

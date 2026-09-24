@@ -24,7 +24,7 @@ const About = () => {
     return (
         <section
             id="about"
-            className="py-28 bg-transparent dark:bg-slate-900"
+            className="py-28 bg-transparent dark:bg-slate-900 glass-card"
         >
             <div className="max-w-7xl mx-auto px-6 lg:px-10">
 

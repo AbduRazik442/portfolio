@@ -56,7 +56,7 @@ const GithubSection = () => {
     return (
         <section
             id="github"
-            className="py-28 bg-white dark:bg-slate-900"
+            className="py-28 glass-card dark:bg-slate-900"
         >
             <div className="max-w-7xl mx-auto px-6 lg:px-10">
 

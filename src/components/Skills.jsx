@@ -61,7 +61,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-28 bg-slate-50 dark:bg-slate-900"
+      className="py-28 bg-slate-50 glass-card dark:bg-slate-900"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
